@@ -3,7 +3,7 @@ const contacts = require("../controllers/contact.controller");
 
 module.exports = (app) => {
     const router = express.Router();
-/*    router.get("/", contacts.findAll);
+    router.get("/", contacts.findAll);
 
     router.post("/", contacts.create);
     router.delete("/", contacts.deleteAll);
@@ -16,10 +16,8 @@ module.exports = (app) => {
 
     router.delete("/:id", contacts.delete);
 
-
-
     app.use("/api/contacts", router);
-*/
+/*
     router.route("/")
         .get(contacts.findAll)
         .post(contacts.create)
@@ -30,5 +28,5 @@ module.exports = (app) => {
         .get(contacts.findOne)
         .put(contacts.update)
         .delete(contacts.delete);
-    app.use("/api/contacts", router);
+    app.use("/api/contacts", router);*/
     };
